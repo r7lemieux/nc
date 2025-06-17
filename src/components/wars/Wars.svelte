@@ -33,6 +33,7 @@
     },
     {
       field: "usDeaths",
+      headerName: "US Deaths",
       maxWidth: 80},
     // { field: "sourceIds",
     //   headerName: "sources",
@@ -56,7 +57,7 @@
 <h1>Main Wars since 2000</h1>
 <section class="wars">
   <div class="ag-theme-alpine" style="height: 100%; width: calc(100% - 2rem);">
-    <div id="myGrid" style="height: 600px"></div>
+    <div id="myGrid" style="height: 46rem"></div>
   </div>
 </section>
 <style>

@@ -2,7 +2,8 @@
 <footer class="footer">
 <!--  <a href="/privacy-policy">privacy policy</a>-->
 <!--  <a href="/terms">terms</a>-->
-  <a href="/sources">Sources</a>
+  <a href="/sources">sources</a>
+  <span class="author">author:<a href="mailto:mightyscallop1@gmail.com">Mighty Scallop</a></span>
   <span class="version">v 1.0</span>
   
   <!--  <div id="loginModal" class="modal" style-=""><Login/></div>-->
@@ -22,10 +23,14 @@
     a {
       font-size: 1rem;
       font-weight: bold;
-      margin: 0 1rem;
+      margin: 0 0.2rem;
       color: #BBF;
     }
     
+    .author {
+      color: #EEE;
+      margin: 0 0.4rem;
+    }
     .version {
       position: absolute;
       right: 0.4rem;
