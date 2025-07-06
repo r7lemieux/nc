@@ -1,6 +1,6 @@
-import { cpis } from '$services/domain/timeFactor/cpis'
-import { interestRates} from '$services/domain/timeFactor/interestRates'
-import { debtByDate } from '$services/domain/timeFactor/debtByDate'
+import { cpisData } from '$services/domain/timeFactor/cpis.data'
+import { interestRatesData} from '$services/domain/timeFactor/interestRates.data'
+import { debtByDate } from '$services/domain/timeFactor/debtByDate.data'
 // DIR : Debt bearing Interest Rates
 const daysInMonths = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31]
 export const computePresentValueFactor = (date0: Date): number => {
@@ -12,16 +12,16 @@ export const computePresentValueFactor = (date0: Date): number => {
   const proratedYear = (12 - month) / 12
   const yearIndex = year - 2000
   const monthIndex = yearIndex * 12 + month
-  const dirs = interestRates
+  const dirs = interestRatesData
   // Consumer Price Index Factor
-  const cpif = (index) => 1 + cpis[monthIndex] / 100
+  const cpif = (index) => 1 + cpisData[monthIndex] / 100
   // Debt Interest Rate Factor
   const dirf = (index) => 1 + dirs[monthIndex] / 1200
 
   let cpiFactor =
     cpif(monthIndex) *
     proratedMonth *
-    cpis.slice(monthIndex + 1).reduce((total, monthValue) => total * (1 + monthValue / 100), 1)
+    cpisData.slice(monthIndex + 1).reduce((total, monthValue) => total * (1 + monthValue / 100), 1)
 
   let dirFactor =
     dirf(monthIndex) *

@@ -1,4 +1,4 @@
-import {cpis} from '$services/domain/timeFactor/cpis'
+import {cpisData} from '$services/domain/timeFactor/cpis.data'
 import {expect, test} from 'vitest'
 import {computePresentValueFactor} from '$services/domain/timeFactor/presentValue.alt.computer'
 
@@ -9,8 +9,8 @@ test('compute yearly cpis', () => {
     let yearCpi = 1
     let yearCpiP = 1
     for (let m = 0; m < 12; m++) {
-      yearCpi *= 1 + cpis[12 * y + m]
-      let monthCpi = 1 + cpis[12 * y + m]/100
+      yearCpi *= 1 + cpisData[12 * y + m]
+      let monthCpi = 1 + cpisData[12 * y + m] / 100
       yearCpiP *= monthCpi
       monthlyCpis.push(monthCpi)
     }

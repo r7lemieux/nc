@@ -1,6 +1,6 @@
 <script lang="ts">
   
-  import {sources} from '$services/domain/sources'
+  import {sources} from '$services/domain/sources.data'
 </script>
 
 <h1>Sources</h1>
@@ -9,7 +9,7 @@
     <div class="source">
       <span class="id">{source.id}</span>
       <span class="ref">
-      <a href="{source.url}" class="name text">{source.name}</a>
+      <a href="{source.url}" class="name text" target="_blank">{source.name}</a>
       {#if source.author && source.author !== source.org}
         ,&nbsp
         <span class="text author">{source.author}</span>
@@ -39,13 +39,13 @@
       padding: 0 0 0.5rem 0;
       
       & .author {
-        color: #560;
+        color: #340;
       }
       & .org {
-        color: #077;
+        color: #044;
       }
       & .date {
-        color: #400
+        color: #332
       }
       & .name {
         font-weight: bold;

@@ -1,7 +1,7 @@
 // https://fiscaldata.treasury.gov/datasets/average-interest-rates-treasury-securities/average-interest-rates-on-u-s-treasury-securities
 // filename: AvgInterestRate_20010131_20250531.json
 
-import {avgInterestRate} from '$services/domain/timeFactor/interestRate.raw'
+import {avgInterestRate} from '$services/domain/timeFactor/interestRate.raw.data'
 import fs from 'fs'
 
 const transformInterestRates = () => {

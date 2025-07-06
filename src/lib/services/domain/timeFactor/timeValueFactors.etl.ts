@@ -1,5 +1,5 @@
-import { cpis } from '$services/domain/timeFactor/cpis'
-import { interestRates } from '$services/domain/timeFactor/interestRates'
+import { cpisData } from '$services/domain/timeFactor/cpis.data'
+import { interestRatesData } from '$services/domain/timeFactor/interestRates.data'
 import * as fs from 'fs';
 
 // DIR : Debt bearing Interest Rates
@@ -7,9 +7,9 @@ import * as fs from 'fs';
 export const computeTimeValueFactors = (): number[] => {
   let factor = 1
   let factors: number[] = []
-  const len = Math.min(cpis.length, interestRates.length)
+  const len = Math.min(cpisData.length, interestRatesData.length)
   for (let index= len - 1; index>0; index--) {
-    factor = factor * (1 + cpis[index]/100) * (1 + interestRates[index] / 1200)
+    factor = factor * (1 + cpisData[index] / 100) * (1 + interestRatesData[index] / 1200)
     factors[index] = factor
   }
   return factors

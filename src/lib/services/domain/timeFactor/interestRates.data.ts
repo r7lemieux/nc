@@ -1,4 +1,4 @@
-export const interestRates = [
+export const interestRatesData = [
 6.5000,
 6.5000,
 6.5000,

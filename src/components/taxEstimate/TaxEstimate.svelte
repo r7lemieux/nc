@@ -19,9 +19,9 @@
   let salaryEl: HTMLInputElement = $state() as HTMLInputElement
   
   onMount(() => {
-    console.log(`==>TaxEstimate.svelte:18 onMount`)
+    // console.log(`==>TaxEstimate.svelte:18 onMount`)
     // taxPaidEl.addEventListener(`focus`, () => taxPaidEl.select())
-    console.log(`==>TaxEstimate.svelte:20 onMount`)
+    // console.log(`==>TaxEstimate.svelte:20 onMount`)
   })
   
   // const deriveTax = (taxPaid) => {
@@ -69,7 +69,7 @@
       store.married.set(true)
       store.headOfHouse.set(false)
     }
-    console.log(`==>TaxEstimate.svelte:66 fileJointly`, fileJointly)
+    // console.log(`==>TaxEstimate.svelte:66 fileJointly`, fileJointly)
     store.fileJointly.set(fileJointly)
   }
   
@@ -106,7 +106,7 @@
   const salaryBlur = () => {
     const el: HTMLInputElement = salaryEl //document.getElementById('taxPaid')
     userInfo.salary = Number(el['value'])
-    console.log(`==>TaxEstimate.svelte:103 income`, income)
+    // console.log(`==>TaxEstimate.svelte:103 income`, income)
     // tick().then(() => {
     //   store.taxPaid.set(taxPaid)
     // })
@@ -127,7 +127,7 @@
     if (salaryEl) {
       userInfo.salary = Number(salaryEl['value'])
       income = userInfo.salary * period
-      console.log(`==>TaxEstimate.svelte:40 income`, income)
+      // console.log(`==>TaxEstimate.svelte:40 income`, income)
       store.income.set(income)
     }
   }

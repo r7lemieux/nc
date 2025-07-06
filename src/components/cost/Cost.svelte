@@ -1,6 +1,7 @@
 <script lang="ts">
   import TaxEstimate from '$components/taxEstimate/TaxEstimate.svelte'
   import Contribution from '$components/contribution/Contribution.svelte'
+  import YearSelector from '$components/yearSelector/YearSelector.svelte'
   //import {taxPaid} from '$stores/tax.store'
   // let {done, taxDone=$bindable(), taxPaid=$bindable()} = $props()
   let {done, taxDone=$bindable()} = $props()
@@ -24,10 +25,10 @@
 <svelte:head>
   <title>Home</title>
 </svelte:head>
-<h1>How much do you pay for wars since 2000?</h1>
+<h1>How much have you paid for wars?</h1>
 <section>
-  <TaxEstimate done={taxDone}  />
-  <br/>
+  <YearSelector/><div class="separator"></div>
+  <TaxEstimate done={taxDone}  /><div class="separator"></div>
   <Contribution bind:start={taxDone} done={contributionDone} />
   <button id="where" onclick={costDone}>Where did the money go?</button>
 </section>
@@ -48,6 +49,9 @@
     button {
         padding: 1.5rem;
         opacity: 0;
+    }
+    .separator {
+      margin: 1rem 0 0 0;
     }
 
 </style>

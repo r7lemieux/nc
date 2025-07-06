@@ -1,5 +1,5 @@
 // filename: DebtPenny_20000101_20250605
-import {debtRecords} from './debt.raw'
+import {debtRecords} from '$services/domain/timeFactor/debt.raw.data'
 import {computeDayIndex} from '$services/domain/timeFactor/index.computer'
 
 const byDate = Array(26 * 12 * 31)

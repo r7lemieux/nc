@@ -1,4 +1,4 @@
-export const cpis = [
+export const cpisData = [
   0.3,
   0.4,
   0.6,
