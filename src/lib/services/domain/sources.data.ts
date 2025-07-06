@@ -268,12 +268,20 @@ export const sources: Source[] = [
   },
   {
     id: 32,
-    name: 'Ukraine: Over 6 Million Refugees Spread Across Europe',
-    org: 'United Nations',
-    author: 'United Nations',
-    url: 'https://unric.org/en/ukraine-over-6-million-refugees-spread-across-europe/',
-    date: new Date(Date.parse('2024-11-09'))
+    name: 'More than 9,000 children have been killed or maimed in Iraq since 2008',
+    org: 'UNICEF',
+    author: 'UNICEF',
+    url: 'https://www.unicef.org/iraq/press-releases/more-9000-children-have-been-killed-or-maimed-%E2%80%AFiraq-2008',
+    date: new Date(Date.parse('2023-06-06'))
   },
+  // {
+  //   id: 32,
+  //   name: 'Ukraine: Over 6 Million Refugees Spread Across Europe',
+  //   org: 'United Nations',
+  //   author: 'United Nations',
+  //   url: 'https://unric.org/en/ukraine-over-6-million-refugees-spread-across-europe/',
+  //   date: new Date(Date.parse('2024-11-09'))
+  // },
   {
     id: 33,
     name: 'Refugees in Iraq: An Overview',
@@ -338,62 +346,70 @@ export const sources: Source[] = [
     url: 'https://watson.brown.edu/costsofwar/costs/human/civilians',
     date: new Date(Date.parse('2025-06'))
   },
-  // {
-  //   id: 3,
-  //   name: 'NAME',
-  //   org: 'ORG',
-  //   author: 'AUTHOR',
-  //   url: 'URL',
-  //   date: new Date(Date.parse('2025'))
-  // },
-  // {
-  //   id: 3,
-  //   name: 'NAME',
-  //   org: 'ORG',
-  //   author: 'AUTHOR',
-  //   url: 'URL',
-  //   date: new Date(Date.parse('2025'))
-  // },
-  // {
-  //   id: 3,
-  //   name: 'NAME',
-  //   org: 'ORG',
-  //   author: 'AUTHOR',
-  //   url: 'URL',
-  //   date: new Date(Date.parse('2025'))
-  // },
-  // {
-  //   id: 3,
-  //   name: 'NAME',
-  //   org: 'ORG',
-  //   author: 'AUTHOR',
-  //   url: 'URL',
-  //   date: new Date(Date.parse('2025'))
-  // },
-  // {
-  //   id: 3,
-  //   name: 'NAME',
-  //   org: 'ORG',
-  //   author: 'AUTHOR',
-  //   url: 'URL',
-  //   date: new Date(Date.parse('2025'))
-  // },
-  // {
-  //   id: 3,
-  //   name: 'NAME',
-  //   org: 'ORG',
-  //   author: 'AUTHOR',
-  //   url: 'URL',
-  //   date: new Date(Date.parse('2025'))
-  // },
-  // {
-  //   id: 3,
-  //   name: 'NAME',
-  //   org: 'ORG',
-  //   author: 'AUTHOR',
-  //   url: 'URL',
-  //   date: new Date(Date.parse('2025'))
-  // },
+  {
+    id: 49,
+    name: 'Casualties of the Syrian civil war',
+    org: 'Wikipedia',
+    author: 'Wikipedia',
+    url: 'https://en.wikipedia.org/wiki/Casualties_of_the_Syrian_civil_war',
+    date: new Date(Date.parse('2025-03'))
+  },
+  {
+    id: 50,
+    name: 'Ukraine: Over 6 Million Refugees Spread Across Europe',
+    org: 'United Nations',
+    author: 'United Nations',
+    url: 'https://unric.org/en/ukraine-over-6-million-refugees-spread-across-europe/',
+    date: new Date(Date.parse('2024-11-09'))
+  },
+  {
+    id: 51,
+    name: 'Troop Casualties in Ukraine War Near 1.4 Million, Study Finds',
+    org: 'The NY times',
+    author: 'Helene Cooper',
+    url: 'https://www.nytimes.com/2025/06/03/us/politics/russia-ukraine-troop-casualties.html',
+    date: new Date(Date.parse('2025-06-04'))
+  },
+  {
+    id: 52,
+    name: '20 Journalists Killed in Ukraine War - Union',
+    org: 'The Moscow Times',
+    author: 'The Moscow Times',
+    url: 'https://www.themoscowtimes.com/2022/04/13/20-journalists-killed-in-ukraine-war-union-a77336',
+    date: new Date(Date.parse('2022-04-13'))
+  },
+  {
+    id: 53,
+    name: 'Amid Record High Killing of Humanitarian Workers, Speakers Implore Security Council to Ensure Accountability for Attacks on Personnel in Conflict Zones',
+    org: 'United Nations, Security Council',
+    author: 'United Nations, Security Council',
+    url: 'https://press.un.org/en/2025/sc16035.doc.htm',
+    date: new Date(Date.parse('2025-04-02'))
+  },
+  {
+    id: 54,
+    name: "Number of civilian casualties in Ukraine during Russia's invasion verified by OHCHR from February 24, 2022 to May 31, 2025",
+    org: 'Statista',
+    author: 'Statista',
+    url: 'https://www.statista.com/statistics/1293492/ukraine-war-casualties/',
+    date: new Date(Date.parse('2025-06-16'))
+  },
+  {
+    id: 55,
+    name: 'More than 9,000 children have been killed or maimed in Iraq since 2008',
+    org: 'UNICEF',
+    author: 'UNICEF',
+    url: 'https://www.unicef.org/iraq/press-releases/more-9000-children-have-been-killed-or-maimed-%E2%80%AFiraq-2008',
+    date: new Date(Date.parse('2023-06-06'))
+  },
+  {
+    id: 56,
+    name: "‘Disturbing spike’ in Afghan civilian casualties after peace talks began: UN report",
+    org: 'United Nation',
+    author: 'Fraidoon Poya',
+    url: 'https://news.un.org/en/story/2021/02/1085442',
+    date: new Date(Date.parse('2021-02-21'))
+  },
   // {
   //   id: 3,
   //   name: 'NAME',

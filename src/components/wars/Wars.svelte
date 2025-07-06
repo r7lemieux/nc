@@ -22,6 +22,7 @@
     },
     {
       field: 'cost',
+      headerName: 'Cost *',
       cellRenderer: function (params: ICellRendererParams) {
         return `<div style="line-height:1.5rem">${params.value.toLocaleString()}</div style="line-height:0.5px">
          <div style="line-height:1.5rem">${toStringInMillions(params.value)}</div>`

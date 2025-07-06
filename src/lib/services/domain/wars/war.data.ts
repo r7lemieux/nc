@@ -4,7 +4,7 @@ export const warData: War[] = [
   {
     label: 'total',
     cost: 9.12e12,
-    usDeaths: 922e3,  // sec 3
+    usDeaths: 15263,  // src 3
     journalistsKilled: 680, //src 3
     startDate: new Date('2000-01-02'),
     costLink: [19],
@@ -21,12 +21,12 @@ export const warData: War[] = [
     totalDeaths: 461e3, // src 36
     displaced: 4.4e6, // 9.2e6,
     refugees: 2.3e6, // only neighboring countries
-    childrenDeaths: 40e3,
+    childrenDeaths: 3119,
     usDeathsLink: [3],
     directKillsLink: [3],
     totalDeathsLink: [36, 4],
     journalistsKilledLink: [3],
-    childrenDeathsLink: [ ],
+    childrenDeathsLink: [32],
     humanitarianKilledLink: [3],
     displacedLink: [39],
     refugeesLink: [39],
@@ -51,8 +51,8 @@ export const warData: War[] = [
     method: '2.313 total in 2021. ',
     sourceIds: [13],
     usDeaths: 6337, // 2324 military
-    directKills: 243e3, //
-    childrenDeaths: 20e3,
+    directKills: 243e3,
+    childrenDeaths: 21e3,  // 3k * 7 years
     journalistsKilled: 161, // Afghan + Pakistan
     humanitarianKilled: 551, // Afghan + Pakistan
     totalDeaths: 360e3,
@@ -63,7 +63,7 @@ export const warData: War[] = [
     directKillsLink: [3],
     totalDeathsLink: [11, 13],
     journalistsKilledLink: [3],
-    childrenDeathsLink: [],
+    childrenDeathsLink: [56],
     humanitarianKilledLink: [3],
     displacedLink: [40],
     refugeesLink: [1],
@@ -71,48 +71,49 @@ export const warData: War[] = [
     endDate: new Date('2021-08-30'),
     note: 'Longest war in American history'
   },
+  // SYRIA
   {
     label: 'Syrian Civil War',
     cost: 22e9,
     startDate: new Date('2014-08-24'),
     endDate: new Date('2024-12-08'),
-    directKills: 269e3,
+    directKills: 580e3,
     usDeaths: 19,
-    totalDeaths: 614339,
+    totalDeaths: 656493,
     journalistsKilled: 75,
     humanitarianKilled: 227,
-    childrenDeaths: 12e3,
+    childrenDeaths: 26282,
     displaced: 13e6,
     refugees: 6.7e6, // 5.6 https://watson.brown.edu/costsofwar/files/cow/imce/papers/2023/Indirect%20Deaths.pdf
     usDeathsLink: [3],
-    directKillsLink: [3],
-    totalDeathsLink: [ ],
+    directKillsLink: [49, 3],
+    totalDeathsLink: [49],
     journalistsKilledLink: [3],
-    childrenDeathsLink: [3],
+    childrenDeathsLink: [3, 49],
     humanitarianKilledLink: [3],
-    displacedLink: [31, 1],
-    refugeesLink: [31],
+    displacedLink: [31, 49, 1],
+    refugeesLink: [31, 49],
   },
   // UKRAINE
   {
     label: 'Ukraine War',
     cost: 671.2e9,
     usDeaths: 0,
-    directKills: 350e3,
-    journalistsKilled: 6,
+    directKills: 330e3,// 60-100 Ukrainians + 250k Russians
+    journalistsKilled: 20,
     childrenDeaths: 587,
-    humanitarianKilled: 0,
-    totalDeaths: 1.5e6, // estimate
+    humanitarianKilled: 23,
+    totalDeaths: 363e3, // 330k + 33k
     displaced: 11e6,
     refugees: 6.74e6,
     usDeathsLink: [ ],
-    directKillsLink: [],
-    totalDeathsLink: [],
-    journalistsKilledLink: [],
-    childrenDeathsLink: [ ],
-    humanitarianKilledLink: [],
-    displacedLink: [ ],
-    refugeesLink: [ ],
+    directKillsLink: [51],
+    totalDeathsLink: [54, 51],
+    journalistsKilledLink: [52],
+    childrenDeathsLink: [2076],  // ony the invasion https://www.statista.com/statistics/1293492/ukraine-war-casualties/
+    humanitarianKilledLink: [53],
+    displacedLink: [50],
+    refugeesLink: [50],
     startDate: new Date('2014-10'),
     expenses: [
       { date: '2022-02-24', amount: 12.4e9 },
@@ -122,13 +123,18 @@ export const warData: War[] = [
       { date: '2024-12-31', amount: 182.8e9 }
     ]
   },
+  // OTHER
   {
     label: 'Other wars on terror',
     cost: 0.8e12,
-    usDeaths: 641,  // https://watson.brown.edu/costsofwar/figures/2021/WarDeathToll
+    usDeaths: 641,
     directKills: 778,
     journalistsKilled: 129,
     humanitarianKilled: 8,
+    usDeathsLink: [3],
+    directKillsLink: [3],
+    journalistsKilledLink: [3],
+    humanitarianKilledLink: [3],
     startDate: new Date('2001-09-11')
   },
   {
@@ -146,7 +152,7 @@ export const warData: War[] = [
     usDeathsLink: [3],
     directKillsLink: [3],
     totalDeathsLink: [],
-    journalistsKilledLink: [ 3],
+    journalistsKilledLink: [3],
     childrenDeathsLink: [],
     humanitarianKilledLink: [3],
     displacedLink: [],
