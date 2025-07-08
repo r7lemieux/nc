@@ -8,12 +8,13 @@ export const warData: War[] = [
     journalistsKilled: 680, //src 3
     startDate: new Date('2000-01-02'),
     costLink: [19],
+    usDeathsLink: [3],
     // expenses: [{ date: '2019-10-30', amount: 6.409e12 }]
   },
   // IRAQ
   {
     label: 'Iraq War',
-    cost: 4.014e12,
+    cost: 4.59e12, // 2.684, //4.014e12,
     usDeaths: 8264, // 4599 military,
     directKills: 298e3, // src 1 Iraq Body Count Project 190-210
     journalistsKilled: 282,
@@ -22,6 +23,7 @@ export const warData: War[] = [
     displaced: 4.4e6, // 9.2e6,
     refugees: 2.3e6, // only neighboring countries
     childrenDeaths: 3119,
+    costLink: [60, 61],
     usDeathsLink: [3],
     directKillsLink: [3],
     totalDeathsLink: [36, 4],
@@ -34,7 +36,11 @@ export const warData: War[] = [
     endDate: new Date('2011-12-14'),
     sourceIds: [19],
     note: '25 million mines remain',
-    expenses: [{ date: '2011-12-14', amount: 2.12e12 }]
+    // expenses: [{ date: '2011-12-14', amount: 2.12e12 }]
+    //expenses: [{ date: '2020-02-06', amount: 1.922e12 }]
+    expenses: [{ date: '2008-03-31', amount: 3e12 }]
+
+
   },
   // AFGHAN
   {
@@ -123,20 +129,7 @@ export const warData: War[] = [
       { date: '2024-12-31', amount: 182.8e9 }
     ]
   },
-  // OTHER
-  {
-    label: 'Other wars on terror',
-    cost: 0.8e12,
-    usDeaths: 641,
-    directKills: 778,
-    journalistsKilled: 129,
-    humanitarianKilled: 8,
-    usDeathsLink: [3],
-    directKillsLink: [3],
-    journalistsKilledLink: [3],
-    humanitarianKilledLink: [3],
-    startDate: new Date('2001-09-11')
-  },
+  // YEMEN
   {
     label: 'Yemeni Civil War',
     cost: 5.4e9,
@@ -146,19 +139,21 @@ export const warData: War[] = [
     humanitarianKilled: 46,
     totalDeaths: 377e3, // src 37
     childrenDeaths: 85e3,
-    displaced: 7.4e6, // [31] 3.6 https://watson.brown.edu/costsofwar/files/cow/imce/papers/2023/Indirect%20Deaths.pdf
-    refugees: 6e6, // [31]
+    displaced: 4.3e6,
+    refugees: 1.25e6,
+    population: 39.39e6,
     costLink: [5],
     usDeathsLink: [3],
     directKillsLink: [3],
-    totalDeathsLink: [],
+    totalDeathsLink: [57],
     journalistsKilledLink: [3],
-    childrenDeathsLink: [],
+    childrenDeathsLink: [58],
     humanitarianKilledLink: [3],
-    displacedLink: [],
-    refugeesLink: [],
+    displacedLink: [59],
+    refugeesLink: [59],
     startDate: new Date('2009-12')
   },
+  // ISRAEL
   {
     label: 'Israel',
     startDate: new Date('1948-05-14'),
@@ -191,23 +186,27 @@ export const warData: War[] = [
       { date: '2024', amount: 17900000000 },
       { date: '2025', amount: 0 }
     ],
-    usDeaths: 3 + 0 + 8 + 54,
-    directKills: 0,
-    totalDeaths: 0,
-    journalistsKilled: 0,
-    humanitarianKilled: 0,
-    childrenDeaths: 0,
-    displaced: 0,
-    refugees: 0,// + Israel killed 11, 3 single citizenship, Palestine kiiled 54 all Israel-US citizens
+    usDeaths: 70, //pre23: 11civ+3IDF post23:34civ,21IDF,1NGO
+    directKills: 68.76e3, // 6371(00-08 10-08)[66] 62k(23-10 25-12)[64]
+    totalDeaths: 192e3, //  80k(23-10 25-01)[62] 76k+1k(23-10 25-01)[64] 186k(23-10 25)[65 68]
+    journalistsKilled: 185,
+    humanitarianKilled: 300,
+    childrenKilled: 21.4e3, // 2431(00 23)[71] + 18k(23-10 25-12)[64] //  1317(00-08 10-08)[66] 1432(08-01 23-09)[63]  11k(24-02 25-02)[63] 17k(23-10 25-12)[65]
+    childrenDeaths: 21654,
+    displaced: 1.9e6, // 1,7e6 [https://www.ochaopt.org/content/reported-impact-snapshot-gaza-strip-19-june-2024]
+    refugees: 100e3, // + Israel killed 11, 3 single citizenship, Palestine killed 54 all Israel-US citizens
+    population: 5.36e6, // WestBank:3.19e6 Gaza:2.17e6 [71]
     costLink: [27, 28, 29, 30],
     usDeathsLink: [ ],
-    directKillsLink: [ ],
-    totalDeathsLink: [ ],
-    journalistsKilledLink: [ ],
-    childrenDeathsLink: [ ],
-    humanitarianKilledLink: [ ],
-    displacedLink: [ ],
-    refugeesLink: [ ],
+    directKillsLink: [71, 64, 66],
+    totalDeathsLink: [65],
+    journalistsKilledLink: [67],
+    childrenKilledLink: [71, 64, 65, 63],
+    childrenDeathsLink: [64, 65],
+    humanitarianKilledLink: [70],
+    displacedLink: [64, 72],
+    refugeesLink: [74],
+    populationLink: [73],
   },
   // LIBYA
   // {
@@ -235,5 +234,19 @@ export const warData: War[] = [
   //   label: 'Iran',
   //   startDate: new Date('2025-06-30'),
   //   cost: 0
-  // }
+  // },
+  // OTHER
+  {
+    label: 'Other wars on terror',
+    cost: 0.8e12,
+    usDeaths: 641,
+    directKills: 778,
+    journalistsKilled: 129,
+    humanitarianKilled: 8,
+    usDeathsLink: [3],
+    directKillsLink: [3],
+    journalistsKilledLink: [3],
+    humanitarianKilledLink: [3],
+    startDate: new Date('2001-09-11')
+  },
 ]

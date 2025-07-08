@@ -9,21 +9,24 @@ export interface War {
   usDeaths?: number
   directKills?: number
   totalDeaths?: number
-  kidsKilled?: number
   journalistsKilled?: number
+  childrenKilled?: number
   childrenDeaths?: number
   humanitarianKilled?: number
   displaced?: number
   refugees?: number
+  population?: number
   costLink?: number[]
   usDeathsLink?: number[]
   directKillsLink?: number[]
   totalDeathsLink?: number[]
   journalistsKilledLink?: number[]
+  childrenKilledLink?: number[]
   childrenDeathsLink?: number[]
   humanitarianKilledLink?: number[]
   displacedLink?: number[]
   refugeesLink?: number[]
+  populationLink?: number[]
   method?: string
   sourceIds?: number[]
   startDate: Date
@@ -32,6 +35,7 @@ export interface War {
   calculationNote?: string
   breakdown?: any
   expenses?: Expense[]
+  countries?: string[]
 }
 
 export const fieldsWithLink = [

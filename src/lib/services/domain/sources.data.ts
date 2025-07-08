@@ -404,14 +404,150 @@ export const sources: Source[] = [
   },
   {
     id: 56,
-    name: "‘Disturbing spike’ in Afghan civilian casualties after peace talks began: UN report",
+    name: '‘Disturbing spike’ in Afghan civilian casualties after peace talks began: UN report',
     org: 'United Nation',
     author: 'Fraidoon Poya',
     url: 'https://news.un.org/en/story/2021/02/1085442',
     date: new Date(Date.parse('2021-02-21'))
   },
+  {
+    id: 57,
+    name: 'Assessing the Impact of War in Yemen: Pathways for Recovery',
+    org: 'United Nations Development Program',
+    author: 'United Nations Development Program',
+    url: 'https://www.undp.org/publications/assessing-impact-war-yemen-pathways-recovery',
+    date: new Date(Date.parse('2021-11-23'))
+  },
+  {
+    id: 58,
+    name: '2.3 Million Children Are on the Brink of Starvation in Yemen ',
+    org: 'Save the Children',
+    author: 'AUTHOR',
+    url: 'https://www.savethechildren.org/us/charity-stories/yemen-severe-acute-malnutrition',
+    date: new Date(Date.parse('2021'))
+  },
+  {
+    id: 59,
+    name: 'Country Profiles, Yemen',
+    org: 'Integral Human Development',
+    author: 'Integral Human Development',
+    url: 'https://migrants-refugees.va/country-profile/yemen/',
+    date: new Date(Date.parse('2023-04'))
+  },
+  {
+    id: 60,
+    name: 'The True Cost of the Iraq War: $3 Trillion and Beyond',
+    org: 'Harvard Kennedy School',
+    author: 'Linda Bilmes',
+    url: 'https://www.hks.harvard.edu/publications/true-cost-iraq-war-3-trillion-and-beyond',
+    date: new Date(Date.parse('2010-09-05'))
+  },
+  {
+    id: 61,
+    name: 'The Financial Legacy of Iraq and Afghanistan: How Wartime Spending Decisions Will Constrain Future National Security Budgets',
+    org: 'Harvard Kennedy School',
+    author: 'Linda Bilmes',
+    url: 'https://www.hks.harvard.edu/publications/financial-legacy-iraq-and-afghanistan-how-wartime-spending-decisions-will-constrain',
+    date: new Date(Date.parse('2013,03'))
+  },
+  {
+    id: 62,
+    name: 'Israel-Gaza war in maps and charts: Live tracker',
+    org: 'Aljazeera',
+    author: 'AJLabs',
+    url: 'https://www.aljazeera.com/news/longform/2023/10/9/israel-hamas-war-in-maps-and-charts-live-tracker',
+    date: new Date(Date.parse('2025-04-17'))
+  },
+  {
+    id: 63,
+    name: 'The 7 October Atrocities and the Annihilation of Gaza: Causes and Responsibilities',
+    org: 'Journal of Genocide Research',
+    author: 'Donald Bloxham',
+    url: 'https://www.tandfonline.com/doi/full/10.1080/14623528.2025.2483546#d1e123',
+    date: new Date(Date.parse('2025-04-03'))
+  },
+  {
+    id: 64,
+    name: 'The human toll of Israel’s war on Gaza – by the numbers',
+    org: 'Aljazeera',
+    author: 'AJLabs',
+    url: 'https://www.aljazeera.com/news/2025/1/15/the-human-toll-of-israels-war-on-gaza-by-the-numbers',
+    date: new Date(Date.parse('2025-01-15'))
+  },
+  {
+    id: 65,
+    name: 'Israel’s war on Gaza has killed 50,000 Palestinians since October 2023',
+    org: 'Aljazeera',
+    author: 'AJLabs',
+    url: 'https://www.aljazeera.com/news/2025/3/23/israeli-offensive-in-gaza-has-killed-50000-palestinians-since-october-2023',
+    date: new Date(Date.parse('2025-03-23'))
+  },
+  {
+    id: 66,
+    name: 'The Jerusalem Post',
+    org: 'The Jerusalem Post',
+    author: 'JPost.com staff',
+    url: 'https://www.jpost.com/israel/btselem-since-2000-7454-israelis-palestinians-killed',
+    date: new Date(Date.parse('2010-08-27'))
+  },
+  {
+    id: 67,
+    name: 'Journalist casualties in the Israel-Gaza war',
+    org: 'Committee to Protect Journalists',
+    author: 'Committee to Protect Journalists',
+    url: 'https://cpj.org/2023/10/journalist-casualties-in-the-israel-gaza-conflict/',
+    date: new Date(Date.parse('2025-06-16'))
+  },
+  {
+    id: 68,
+    name: 'Counting the dead in Gaza: difficult but essential',
+    org: 'The Lancet',
+    author: 'The Lancet',
+    url: 'https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(24)01169-3/fulltext',
+    date: new Date(Date.parse('2024-07-10'))
+  },
+  {
+    id: 69,
+    name: 'Israeli Intelligence Has Deemed Hamas-Run Health Ministry’s Death Toll Figures Generally Accurate',
+    org: 'Vice',
+    author: 'Mitchell Prothero',
+    url: 'https://www.vice.com/en/article/israeli-intelligence-health-ministry-death-toll/',
+    date: new Date(Date.parse('2025-01-25'))
+  },
+  {
+    id: 70,
+    name: 'IRC calls for the protection of aid workers in Gaza, following the killings of three partner staff in just 24 hours',
+    org: 'IRC International Rescue Committee',
+    author: 'IRC International Rescue Committee',
+    url: 'https://www.rescue.org/press-release/irc-calls-protection-aid-workers-gaza-following-killings-three-partner-staff-just-24',
+    date: new Date(Date.parse('2024-10-15'))
+  },
+  {
+    id: 71,
+    name: 'Deaths',
+    org: 'Israel-Palestine Timeline',
+    author: 'Israel-Palestine Timeline',
+    url: 'https://israelpalestinetimeline.org/charts/',
+    date: new Date(Date.parse('2025'))
+  },
+  {
+    id: 73,
+    name: 'Conditions of Palestinian Populations',
+    org: 'Palestinian Central Bureau of Statistics (PCBS)',
+    author: 'Palestinian Central Bureau of Statistics (PCBS)',
+    url: 'https://www.pcbs.gov.ps/portals/_pcbs/PressRelease/Press_En_InterPopDay2022E.pdf',
+    date: new Date(Date.parse('2022-07-11'))
+  },
+  {
+    id: 74,
+    name: 'Has Israel-Hamas war displaced Palestinian refugees forever?',
+    org: 'DW, Deutsche Welle',
+    author: 'Astrid Prange de Oliveira, Jennifer Holleis',
+    url: 'https://www.dw.com/en/the-plight-of-displaced-palestinian-refugees/a-70353072',
+    date: new Date(Date.parse('2023-10-07'))
+  },
   // {
-  //   id: 3,
+  //   id: 75,
   //   name: 'NAME',
   //   org: 'ORG',
   //   author: 'AUTHOR',
@@ -419,7 +555,7 @@ export const sources: Source[] = [
   //   date: new Date(Date.parse('2025'))
   // },
   // {
-  //   id: 3,
+  //   id: 76,
   //   name: 'NAME',
   //   org: 'ORG',
   //   author: 'AUTHOR',
@@ -427,16 +563,181 @@ export const sources: Source[] = [
   //   date: new Date(Date.parse('2025'))
   // },
   // {
-  //   id: 3,
+  //   id: 77,
   //   name: 'NAME',
   //   org: 'ORG',
   //   author: 'AUTHOR',
   //   url: 'URL',
   //   date: new Date(Date.parse('2025'))
   // },
-
-
-
+  // {
+  //   id: 75,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 76,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 77,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 75,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 76,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 77,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 75,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 76,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 77,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 75,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 76,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 77,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 75,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 76,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 77,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 75,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 76,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 77,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 75,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 76,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
+  // {
+  //   id: 77,
+  //   name: 'NAME',
+  //   org: 'ORG',
+  //   author: 'AUTHOR',
+  //   url: 'URL',
+  //   date: new Date(Date.parse('2025'))
+  // },
 
   // UN
 

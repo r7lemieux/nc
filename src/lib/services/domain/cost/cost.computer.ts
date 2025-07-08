@@ -28,6 +28,7 @@ export const computeOtherWarCosts = ():number => {
   return other
 }
 
+// Compute was cost will print cost form expenses if cost is 0.
 computeWarCosts()
 computeTotalWarCosts()
 computeOtherWarCosts()
